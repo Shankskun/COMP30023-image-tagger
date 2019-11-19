@@ -6,7 +6,24 @@ This program is acts as a game server between 2 players from 2 different browser
 
 This games requires players to *guess* the words or phase that have been submmited by the other player, based on the given image. Hence it is important that the players enter guesses that matches/describes the image as close as possible, to maximise the chances of players to guess the exact words.
 
+--- 
+### Screenshots
+
+###### Start screen on 2 browsers
+![start-screen](https://github.com/Shankskun/COMP30023-image-tagger/blob/master/screen-shots/start-page.png)
+
+###### Game play screen - guessing words based on the image
+![gameplay-screen](https://github.com/Shankskun/COMP30023-image-tagger/blob/master/screen-shots/guess-page.png)
+
 ---
+### Tasks
+- The game server must be implemented by socket programming in C.
+- The server must use **HTTP protocol** to communicate with the client browsers.
+- A makefile must be provided along with the code for compilation.
+- The image_tagger program must accept two parameters: (i) a specified server IP address, and (ii) a specified port number.
+- Redirect players to the pages with the _html source files_ provided.
+
+
 ### How to Run the Server
 1. Linux environment is required in order to run the server.
 2. Compile the code files using the `makefile`.
@@ -21,14 +38,3 @@ This games requires players to *guess* the words or phase that have been submmit
 1. If both player continues, the process repeats and they will be given a new image for the next round.
 
 ---
-
-##### How the site looks like:
-- Start Screen:
-
-  ![start-screen](https://github.com/nickangmc/image-tagger/blob/master/readme-images/start-screen.png)
-  
-- Ready Screen:
-
-  ![ready-screen](https://github.com/nickangmc/image-tagger/blob/master/readme-images/ready-screen.png)
-
-
